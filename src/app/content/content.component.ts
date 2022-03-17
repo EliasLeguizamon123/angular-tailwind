@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentComponent implements OnInit {
 
+  //@Input () todos?: Todo[];
+
   constructor() { }
 
   ngOnInit(): void {
   }
+  // addTodo(): void {
+    // this.getTodos();
+  // }
 
 }

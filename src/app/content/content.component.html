@@ -1,3 +1,27 @@
-<div class="container mx-auto p-8">
-  <h2>Content works from Docker</h2>
+<div class="container mx-auto p-8  pt-12 text-center">
+  <input 
+    type="text" 
+    placeholder="Insert new Todo here . . ." 
+    class="rounded-full focus:border-cyan-800"
+    required="true"
+    id="todo"
+  >
+  <button class="
+    bg-sky-600 
+    hover:bg-teal-800 
+    lg 
+    p-2 
+    ml-4 
+    w-24
+    text-white
+    hover:text-black
+    rounded-full"
+    >
+      Save 
+    </button>
+    <br />
+    <h2 class="py-8">
+      <span class="text-sky-600 text-2xl italic font-mono">Todos List</span>
+    </h2>
+    <app-list-todos></app-list-todos>
 </div>
